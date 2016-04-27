@@ -28,9 +28,10 @@ end
 
 attempt_number = 0
 
-while attempt_number <= 5
-	if guess_correctly?(number)
-		break
-	end
-	if attempt_number 
+until guess_correct(number) or attempt_number > 5
+	attempt_number += 1
+end
+
+if attempt number == 5
+	puts "you have failed"
 end
